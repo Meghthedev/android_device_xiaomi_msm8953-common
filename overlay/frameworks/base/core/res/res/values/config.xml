@@ -540,6 +540,7 @@
     -->
     <integer name="config_deviceSupportsButtonBrightnessControl">1</integer>
 
+<<<<<<< HEAD
     <!-- Disable rounded corners on windows to improve graphics performance -->
     <bool name="config_supportsRoundedCornersOnWindows">false</bool>
 
@@ -578,4 +579,8 @@
     <bool name="def_bluetooth_on">false</bool>
 
     <bool name="config_button_brightness_support">true</bool>
+
+    <!-- List of comma separated package names for 
+         which we the system will not show crash, ANR,etc. dialogs. --> 
+     <string name="config_appsNotReportingCrashes">com.google.android.tts</string>
 </resources>
